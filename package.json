@@ -1,0 +1,30 @@
+{
+  "name": "rehype-prism-advanced",
+  "version": "0.0.1",
+  "description": "adding code highlight, title to mdx code",
+  "license": "MIT",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "code",
+    "highlight",
+    "prism"
+  ],
+  "repository": "collegewap/rehype-prism-advanced",
+  "bugs": "https://github.com/collegewap/rehype-prism-advanced/issues",
+  "author": {
+    "name": "Abhishek EH",
+    "email": "collegewap@gmail.com",
+    "url": "https://github.com/collegewap"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "parse-numeric-range": "^1.3.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "unist-util-visit": "^2.0.3"
+  }
+}
