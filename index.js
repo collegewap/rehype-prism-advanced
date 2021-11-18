@@ -18,7 +18,6 @@ const calculateLinesToHighlight = (meta) => {
   if (RE.test(meta)) {
     const strlineNumbers = RE.exec(meta)[1];
     const lineNumbers = rangeParser(strlineNumbers);
-    console.log(lineNumbers);
     return (index) => lineNumbers.includes(index + 1);
   } else {
     return () => false;
@@ -87,8 +86,10 @@ const rehypePrism = (options) => (ast) => {
                     h(
                       "span",
                       {
+                        key: "line-no",
                         className: "line-no",
                       },
+
                       i + 1
                     ),
                     ...line.map((token, key) =>
