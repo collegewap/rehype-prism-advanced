@@ -10,13 +10,14 @@
     "highlight",
     "prism"
   ],
-  "repository": "collegewap/rehype-prism-advanced",
-  "bugs": "https://github.com/collegewap/rehype-prism-advanced/issues",
-  "author": {
-    "name": "Abhishek EH",
-    "email": "collegewap@gmail.com",
-    "url": "https://github.com/collegewap"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collegewap/rehype-prism-advanced.git"
   },
+  "bugs": {
+    "url": "https://github.com/collegewap/rehype-prism-advanced/issues"
+  },
+  "author": "Abhishek EH <collegewap@gmail.com> (https://github.com/collegewap)",
   "files": [
     "index.js"
   ],
@@ -26,5 +27,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "unist-util-visit": "^2.0.3"
+  },
+  "homepage": "https://github.com/collegewap/rehype-prism-advanced#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
